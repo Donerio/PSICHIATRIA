@@ -1,71 +1,4 @@
-\documentclass[]{article}
-\usepackage{lmodern}
-\usepackage{amssymb,amsmath}
-\usepackage{ifxetex,ifluatex}
-\usepackage{fixltx2e} % provides \textsubscript
-\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
-  \usepackage[T1]{fontenc}
-  \usepackage[utf8]{inputenc}
-\else % if luatex or xelatex
-  \ifxetex
-    \usepackage{mathspec}
-  \else
-    \usepackage{fontspec}
-  \fi
-  \defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
-\fi
-% use upquote if available, for straight quotes in verbatim environments
-\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
-% use microtype if available
-\IfFileExists{microtype.sty}{%
-\usepackage{microtype}
-\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
-}{}
-\usepackage[unicode=true]{hyperref}
-\hypersetup{
-            pdfborder={0 0 0},
-            breaklinks=true}
-\urlstyle{same}  % don't use monospace font for urls
-\usepackage{graphicx,grffile}
-\makeatletter
-\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
-\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
-\makeatother
-% Scale images if necessary, so that they will not overflow the page
-% margins by default, and it is still possible to overwrite the defaults
-% using explicit options in \includegraphics[width, height, ...]{}
-\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
-\IfFileExists{parskip.sty}{%
-\usepackage{parskip}
-}{% else
-\setlength{\parindent}{0pt}
-\setlength{\parskip}{6pt plus 2pt minus 1pt}
-}
-\setlength{\emergencystretch}{3em}  % prevent overfull lines
-\providecommand{\tightlist}{%
-  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
-\setcounter{secnumdepth}{0}
-% Redefines (sub)paragraphs to behave more like sections
-\ifx\paragraph\undefined\else
-\let\oldparagraph\paragraph
-\renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
-\fi
-\ifx\subparagraph\undefined\else
-\let\oldsubparagraph\subparagraph
-\renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
-\fi
-
-% set default figure placement to htbp
-\makeatletter
-\def\fps@figure{htbp}
-\makeatother
-
-
-\date{}
-
-\begin{document}
-
-\textbf{\emph{FARMACI ANTIPSICOTICI:}}
+\section{Farmaci antipsicotici}
 
 I \textbf{\emph{farmaci antipsicotici}} sono composti ampiamente
 utilizzati in ambito psichiatrico per il trattamento dei disturbi
@@ -107,11 +40,14 @@ In generale, gli antipsicotici possono essere suddivisi in:
   blocco 5-HT\textsubscript{2}} piuttosto che D2).
 \end{itemize}
 
-\includegraphics[width=4.78125in,height=3.20833in]{media/image1.jpeg}
+\begin{figure}[!ht]
+\centering
+	\includegraphics[width=0.9\textwidth]{07/image1.jpeg}
+\end{figure}
 
-\textbf{\emph{TRATTAMENTO DELLA SCHIZOFRENIA:}}
+\subsection{Trattamento della schizofrenia}
 
-\textbf{\emph{INTRODUZIONE:}}
+\subsubsection{Introduzione}
 
 Possiamo raffigurarci la schizofrenia come un treno che investe la
 persona che ne è affetta. L'idea rende perché effettivamente fermare un
@@ -143,7 +79,6 @@ elettroconvulsivante}}.
 \begin{itemize}
 \item
   \textbf{\emph{Trattamento Farmacologico}}
-\end{itemize}
 
 A tutt'oggi il trattamento di prime linea per la schizofrenia è quello
 farmacologico, e si avvale essenzialmente degli \emph{antipsicotici},
@@ -152,16 +87,14 @@ tranquillanti maggiori, che sono dei bloccanti dei recettori
 D\textsubscript{2}) e \textbf{atipici} (di più recente sviluppo, sono
 degli inibitori dei recettori 5-HT\textsubscript{2} ).
 
-\begin{enumerate}
-\def\labelenumi{\arabic{enumi}.}
-\item
+\begin{itemize}
+\item[1.]
   Gli \textbf{\emph{antipsicotici tipici}} agiscono principalmente a
   livello della via dopaminergica mesolimbica, la cui iperattività si
   presuppone sia alla base dei \emph{sintomi positivi}, che
   effettivamente rispondono in genere bene agli antipsicotici tipici, i
   quali, dal punto di vista farmacodinamico, possono essere suddivisi
   in:
-\end{enumerate}
 
 \begin{itemize}
 \item
@@ -172,9 +105,7 @@ degli inibitori dei recettori 5-HT\textsubscript{2} ).
   base all'affinità di legame coi recettori dopaminergici.
 \end{itemize}
 
-\begin{enumerate}
-\def\labelenumi{\arabic{enumi}.}
-\item
+\item[2.]
   Gli \textbf{\emph{antipsicotici atipici}}, invece, si differenziano
   dai neurolettici per il loro diverso profilo clinico e tossicologico,
   ed hanno anche una maggior specificità d'azione nei confronti dei
@@ -186,7 +117,7 @@ degli inibitori dei recettori 5-HT\textsubscript{2} ).
   tipo extrapiramidale} tipici degli antipsicotici tipici, e risultano
   quindi meglio tollerati, garantendo una maggior compliance da parte
   del paziente.
-\end{enumerate}
+\end{itemize}
 
 Il trattamento farmacologico della schizofrenia è strutturato in 3 fasi
 principali:
@@ -245,7 +176,7 @@ ancora valutata nei dettagli. In caso di comparsa di sintomi
 extrapiramidali, più comuni con i neurolettici, si può tentare ad
 aggiungere un \textbf{farmaco anticolinergico} (orfenadrina 50-150
 mg/die, oppure triesifenidile 2-6 mg/die), mentre se il sintomi
-predominante è l'acatisia è utile l'aggiunta di un \textbf{β-bloccante}.
+predominante è l'acatisia è utile l'aggiunta di un \textbf{$\beta$-bloccante}.
 
 \textbf{Fase di Stabilizzazione}: Consiste nel \emph{proseguimento della
 terapia prescritta per la fase acuta}, avendo cura di adattarlo, se
@@ -258,10 +189,8 @@ che includa trattamenti farmacologici, psicoterapeutici ed interventi di
 tipo riabilitativo psicosociale, così da prevenire le ricadute e
 migliorare la qualità della vita.
 
-\begin{itemize}
 \item
   \textbf{\emph{Terapia Elettroconvulsivante}}
-\end{itemize}
 
 L'impiego della \textbf{terapia} \textbf{elettroconvulsivante}
 (\textbf{TEC}) è ad oggi limitato ai casi in cui è presente una marcata
@@ -269,9 +198,14 @@ componente affettiva (depressione secondaria o disturbo
 schizoaffettivo), nelle forme catatoniche e, in associazione ai farmaci,
 nei casi resistenti al solo trattamento farmacologico.
 
-\textbf{\emph{EVOLUZIONE DELLA TERAPIA:}}
+\end{itemize}
 
-\includegraphics[width=5.10069in,height=3.82552in]{media/image2.jpeg}
+\subsubsection{Evoluzione della terapia}
+
+\begin{figure}[!ht]
+\centering
+	\includegraphics[width=0.9\textwidth]{07/image2.jpeg}
+\end{figure}
 
 Dal punto di vista storico, i primi studi sugli antipsicotici risalgono
 agli \textbf{anni '60}, quando nel 1952 in Francia si vide che la
@@ -369,7 +303,7 @@ controlli elevati
 \emph{\textbf{Effectivness}}: dati ottenuti dalla pratica clinica in
 condizioni sperimentali meno controllate ma comunque indicative.
 
-\textbf{\emph{ANTIPSICOTICI TIPICI (``NEUROLETTICI'')}}
+\paragraph{Antipsicotici tipici ("neurolettici")}
 
 Gli \textbf{\emph{antipsicotici tipici}} sono noti anche come
 \emph{tranquillanti maggiori} o \emph{neurolettici} a causa dell'effetto
@@ -439,12 +373,10 @@ L'inevitabile azione anche su:
   determina la comparsa degli \emph{effetti extrapiramidali}, che sono
   particolarmente marcati proprio con gli antipsicotici tipici e
   includono:
-\end{itemize}
 
 \begin{itemize}
 \item
   effetti acuti come:
-\end{itemize}
 
 \begin{itemize}
 \item
@@ -457,7 +389,6 @@ L'inevitabile azione anche su:
   5 giorni dall'inizio del trattamento nel 40-60\% dei pazienti.
 \end{itemize}
 
-\begin{itemize}
 \item
   Altre forme ad esordio più tardivo sono: il \textbf{parkinsonismo},
   che compare in genere dopo 3-4 mesi, e l'\textbf{acatisia}, che è
@@ -476,9 +407,8 @@ L'inevitabile azione anche su:
   ricaduta del 10\% che aumentava di mese in mese.
 \end{itemize}
 
-\begin{itemize}
 \item
-  il forte \textbf{blocco sui recettori α\textsubscript{1}, M1 ed H1}
+  il forte \textbf{blocco sui recettori $\alpha$\textsubscript{1}, M1 ed H1}
   determina gli effetti collaterali più frequenti, come \emph{nausea},
   \emph{vomito}, \emph{ipotensione ortostatica}, \emph{sedazione} ed
   \emph{incremento dell'intake di cibo}.
@@ -494,7 +424,7 @@ Il capostipite degli antipsicotici tipici è
 l'\textbf{\emph{aloperidolo}}, un potente bloccante dei recettori D2
 mesocorticali e un poco attivo anche sui recettori
 5-HT\textsubscript{2A} e 5-HT\textsubscript{1A}, oltre al consueto
-blocco sui recettori α\textsubscript{1}, M1 ed H1.
+blocco sui recettori $\alpha$\textsubscript{1}, M1 ed H1.
 
 Accanto alla classe dei neurolettici vennero poi proposte anche altre
 classi farmacologiche, come quella dei cosiddetti \emph{farmaci
@@ -517,12 +447,12 @@ decisamente dai primi anni '90, si scelse si sostituire il termine
 dal punto di vista semantico, l'effetto terapeutico da quello
 collaterale
 
-\textbf{\emph{ANTIPSICOTICI ATIPICI:}}
+\paragraph{Antipsicotici atipici}
 
 Col tempo si è cercato di scindere l'effetto terapeutico da quello
 collaterale e quindi si è preferito il termine antipsicotici a quello
 neurolettici per indicare il cambio d'indirizzo terapeutico, ottenuto a
-partire dagli anni '90 con quelli di 2° generazione. Si cercò di mettere
+partire dagli anni '90 con quelli di 2\textsuperscript{o} generazione. Si cercò di mettere
 a punto farmaci con minori effetti collaterali, che non rendevano più
 necessario cercare l'effetto collaterale per capire l'efficacia del
 farmaco, e questo perché si comprese che l'effetto farmacologico
@@ -564,7 +494,7 @@ la \textbf{\emph{clozapina}}.
 Gli antipsicotici atipici hanno minori effetti collaterali
 extrapiramidali per via del \emph{ridotto effetto di blocco
 dopaminergico}, ma conservano tuttavia i loro effetti sui
-\emph{recettori α\textsubscript{1}, M1 ed H1.}
+\emph{recettori $\alpha$\textsubscript{1}, M1 ed H1.}
 
 Gli effetti collaterali della clozapina includono:
 
@@ -615,7 +545,7 @@ Gli effetti collaterali della clozapina includono:
   nei maschi causa sempre tensione mammaria, galattorrea, riduzione
   della libido, impotenza e ginecomastia, ma non ha effetti cancerogeni.
 \item
-  Il \emph{blocco dei recettori α\textsubscript{1}}-adrenergici causa
+  Il \emph{blocco dei recettori $\alpha$\textsubscript{1}}-adrenergici causa
   \textbf{ipotensione ortostatica},
 \item
   L'azione di \emph{blocco dei recettori H1} dà \textbf{sedazione} e
@@ -654,7 +584,6 @@ Gli effetti collaterali della clozapina includono:
   La sindrome si manifesta nello 0,2-0,4\% dei pazienti trattati con
   antipsicotici, ed è più frequente con gli antipsicotici di I
   generazione e di elevata potenza, caratterizzandosi per:
-\end{itemize}
 
 \begin{itemize}
 \item
@@ -668,7 +597,6 @@ Gli effetti collaterali della clozapina includono:
   diastolica}. I
 \end{itemize}
 
-\begin{quote}
 l paziente si presenta immobile, rigido, con una contrattura di tipo
 spastico, in una condizione di stupore, ed è scarsamente reattivo,
 talora confuso. La contrattura porta ad un incremento plasmatico di CPK,
@@ -685,7 +613,7 @@ naso-gastrico, perché questi pazienti non si alimentano spontaneamente.
 È fondamentale diagnosticare questa sindrome per tempo, in quanto i
 pazienti possono morire per insufficienza renale, TEP o per
 insufficienza renale.
-\end{quote}
+\end{itemize}
 
 \emph{\emph{Altri antipsicotici atipici:}}
 
@@ -717,7 +645,7 @@ concentrazione della prolattina ed agiscono principalmente da
   piano clinico, si è rivelato poco efficace.
 \end{itemize}
 
-\textbf{\emph{FARMACODINAMICA E FARMACOCINETICA DEGLI ANTIPSICOTICI}}
+\paragraph{Farmacodinamica e farmacocinetica degli antipsicotici}
 
 \emph{\emph{Farmacodinamica}}
 
@@ -758,7 +686,7 @@ lunghi, e questa strategia viene tipicamente messa in atto in pazienti
 poco complianti, che faticano ad assumere giornalmente l'antipsicotico
 per via orale.
 
-\textbf{\emph{PROFILO MOLECOLARE:}}
+\paragraph{Profilo molecolare}
 
 Dal punto di vista del profilo molecolare, tutti i farmaci
 antipsicotici, ma in particolare i \textbf{\emph{neurolettici,}}
@@ -777,7 +705,7 @@ con altri tipi di recettori:
   \emph{recettore H1} dell'istamina la \textbf{clozapin}a e la
   \textbf{clorpromazina }
 \item
-  \emph{recettore α\textsubscript{1} adrenergico} la clorpromazina.
+  \emph{recettore $\alpha$\textsubscript{1} adrenergico} la clorpromazina.
 \end{itemize}
 
 L'\textbf{aloperidolo} e la \textbf{pimozide}, ad esempio, hanno una
@@ -802,7 +730,7 @@ generalmente \emph{priva di effetti collaterali extrapiramidali}.
 ponderale, lo si ha soprattutto con \textbf{l}a \textbf{clozapina} e
 l'\textbf{olanzapina},
 
-\textbf{\emph{EFFETTI GENERALI DEGLI ANTIPSICOTICI:}}
+\paragraph{Effetti generali degli antipsicotici}
 
 \textbf{Blocco dei Recettori D2}, che agisce a livello di diversi
 circuiti cerebrali:
@@ -845,7 +773,7 @@ circuiti cerebrali:
   mesolimbica-frontale.
 \end{itemize}
 
-\textbf{Blocco dei Recettori α\textsubscript{1}}, che causa
+\textbf{Blocco dei Recettori $\alpha$\textsubscript{1}}, che causa
 \emph{ipotensione ortostatica}.
 
 \textbf{Blocco dei Recettori M1}, che determina la comparsa di sintomi
@@ -880,7 +808,7 @@ terapia, soprattutto in pazienti affetti da sindrome metabolica e DMT2.
 sindrome metabolica, ed i farmaci che mostrano maggiormente questo
 effetto collaterale sono l'\emph{olanzapina} e la \emph{clozapina}.
 
-\emph{\textbf{MORTALITÀ DEI PAZIENTI SCHIZOFRENICI}:}
+\paragraph{Mortalità dei pazienti schizofrenici}
 
 I pazienti schizofrenici hanno una probabilità aumentata di morire per
 cause non naturali rispetto alla popolazione generale.
@@ -986,7 +914,7 @@ trattenersi dal mangiare per l'effetto dei farmaci.
 Riassumendo per avere una riduzione degli effetti piramidali si ha un
 aumento del peso corporeo.
 
-\textbf{\emph{COMPLIANCE DEL PAZIENTE AL TRATTAMENTO}:}
+\paragraph{Compliance del paziente al trattamento}
 
 Il farmaco con la migliore compliance in assoluto è l'Olanzapina, anche
 se purtroppo è quello che dopo la Clozapina causa il maggior aumento di
@@ -1037,7 +965,7 @@ minor numero di ricoveri e una notevole riduzione dei sintomi positivi,
 in modo che la persona possa trascorrere la maggior parte del suo tempo
 a casa e non in ospedale.
 
-\textbf{\emph{SUPPORTO ALLA TERAPIA FARMACOLOGICA}:}
+\paragraph{Supporto alla terapia farmacologica}
 
 Le terapie alternative come musicoterapia, spor all'aria aperta etc
 sembrano molto utili per far passare il tempo al paziente ma non hanno
@@ -1080,7 +1008,7 @@ quotidiane (skill training) porta a un grande miglioramento.
 Si cerca in ultima analisi di evitare che il paziente schizofrenico sia
 abbandonato a se stesso per evitare il degrado della persona.
 
-\textbf{\emph{ESITO DELLA TERAPIA:}}
+\paragraph{Esito della terapia}
 
 Il funzionamento, inteso come la percentuale di persone che lavorano
 nella popolazione generale, è intorno all' 80\%.
@@ -1092,7 +1020,7 @@ quello che succede è strano perchè con un nuovo trattamento si dovrebbe
 avere un migliore funzionamento dei pazienti affetti, mentre quello che
 si nota è una riduzione dell'attività lavorativa.
 
-Si tenga presente che gli antipsicotici di 1° generazione (definiti
+Si tenga presente che gli antipsicotici di 1\textsuperscript{o} generazione (definiti
 \emph{``neurolettici}'' dagli scopritori francesi) sono efficaci su
 deliri e allucinazioni, quindi viene spontaneo chiedersi come mai queste
 persone, avendo un esordio di malattia intorno ai 22-23 anni per i
@@ -1134,7 +1062,7 @@ metanalisi svolta su 7500 pazienti).
 
 Un quesito che ci si è posti è se è la malattia stessa che porta a
 demenza oppure il contrario. Tramite lo studio si è visto che il deficit
-c'è spesso anche nei familiari di 1° grado di questi pazienti, quindi è
+c'è spesso anche nei familiari di 1\textsuperscript{o} grado di questi pazienti, quindi è
 un cervello che geneticamente non ha prestazioni molto brillanti.
 
 \emph{{[}Domanda}: \emph{supponendo di intercettare una schizofrenia
@@ -1173,5 +1101,3 @@ della malattia perché la fuga messa in atto dal paziente dell'esempio
 non è efficace nell'impedire l'avanzare della malattia, la psicoterapia
 serve per mettere in atto delle strategie per controllare la malattia.}
 {]}.
-
-\end{document}
