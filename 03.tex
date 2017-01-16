@@ -1,74 +1,4 @@
-\documentclass[]{article}
-\usepackage{lmodern}
-\usepackage{amssymb,amsmath}
-\usepackage{ifxetex,ifluatex}
-\usepackage{fixltx2e} % provides \textsubscript
-\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
-  \usepackage[T1]{fontenc}
-  \usepackage[utf8]{inputenc}
-\else % if luatex or xelatex
-  \ifxetex
-    \usepackage{mathspec}
-  \else
-    \usepackage{fontspec}
-  \fi
-  \defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
-\fi
-% use upquote if available, for straight quotes in verbatim environments
-\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
-% use microtype if available
-\IfFileExists{microtype.sty}{%
-\usepackage{microtype}
-\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
-}{}
-\usepackage[unicode=true]{hyperref}
-\hypersetup{
-            pdfborder={0 0 0},
-            breaklinks=true}
-\urlstyle{same}  % don't use monospace font for urls
-\usepackage{longtable,booktabs}
-% Fix footnotes in tables (requires footnote package)
-\IfFileExists{footnote.sty}{\usepackage{footnote}\makesavenoteenv{long table}}{}
-\usepackage{graphicx,grffile}
-\makeatletter
-\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
-\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
-\makeatother
-% Scale images if necessary, so that they will not overflow the page
-% margins by default, and it is still possible to overwrite the defaults
-% using explicit options in \includegraphics[width, height, ...]{}
-\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
-\IfFileExists{parskip.sty}{%
-\usepackage{parskip}
-}{% else
-\setlength{\parindent}{0pt}
-\setlength{\parskip}{6pt plus 2pt minus 1pt}
-}
-\setlength{\emergencystretch}{3em}  % prevent overfull lines
-\providecommand{\tightlist}{%
-  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
-\setcounter{secnumdepth}{0}
-% Redefines (sub)paragraphs to behave more like sections
-\ifx\paragraph\undefined\else
-\let\oldparagraph\paragraph
-\renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
-\fi
-\ifx\subparagraph\undefined\else
-\let\oldsubparagraph\subparagraph
-\renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
-\fi
-
-% set default figure placement to htbp
-\makeatletter
-\def\fps@figure{htbp}
-\makeatother
-
-
-\date{}
-
-\begin{document}
-
-\textbf{\emph{TERAPIA DEI DISTURBI DELL'UMORE:}}
+\section{Terapia dei disturbi dell'umore}
 
 Il \textbf{trattamento dei disturbi} dell'umore differisce in base al
 tipo di disturbo che interessa il paziente, nonché in base alla sua
@@ -80,9 +10,9 @@ regime di day hospital o l'ospedalizzazione, anche mediante TSO, e
 successivamente si può procedere con un'adeguata terapia farmacologica e
 psicologica.
 
-\textbf{\emph{TRATTAMENTO DEGLI EPISODI DEPRESSIVI:}}
+\subsection{Trattamento degli episodi depressivi}
 
-\textbf{\emph{LINEE GUIDA:}}
+\subsubsection{Linee guida}
 
 \emph{\emph{CASO CLINICO: Nella fine degli anni '80 negli Stati Uniti un
 nefrologo, dottor Osheroff, che dal punto di vista professionale ha
@@ -227,19 +157,17 @@ possibili interazioni, effetti collaterali, mentre le europee non
 considerano questi aspetti e danno linee di principio, infatti sono di
 10-12 pagine contro le circa 100 delle altre.
 
-\textbf{INDICATORI NELLA SCELTA DEL TRATTAMENTO:}
+\subsubsection{Indicatori nella scelta del trattamento}
 
 Sono la Gravità e la Durata della depressione:
 
-\begin{enumerate}
-\def\labelenumi{\arabic{enumi}.}
-\item
-  \textbf{La GRAVITÀ della depressione: }
+\begin{itemize}
+\item[1.]
+La GRAVITÀ della depressione:
 
   Per il DSM (Il Manuale Diagnostico e Statistico dei Disturbi Mentali)
   la \textbf{gravità dei sintomi} è espressa semplicemente contando il
   numero dei sintomi:
-\end{enumerate}
 
 \begin{itemize}
 \item
@@ -250,9 +178,10 @@ Sono la Gravità e la Durata della depressione:
   grave se maggiore di 7,
 \item
   molto grave se ha sintomi psicotici, quindi depressione delirante.
+\end{itemize}
 
-  Questo è un criterio un pò grossolano, basta che ne abbia uno, ma
-  molto intense, per avere un quadro più grave rispetto ad un'altro:
+  Questo è un criterio un po' grossolano, basta che ne abbia uno, ma
+  molto intense, per avere un quadro più grave rispetto ad un altro:
   quindi tenere conto solo del numero, ma non della gravità, è
   estremamente impreciso.
 
@@ -263,13 +192,11 @@ Sono la Gravità e la Durata della depressione:
   Il ricovero dovrebbe scattare nelle forme deliranti, ad alto rischio
   di suicidio, o in forme molto complicate da gestire, ad esempio un
   anziano con problemi internistici.
-\end{itemize}
 
 \begin{itemize}
 \item
   Per pazienti con una GRAVITÀ LIEVE le possibilità di trattamento sono
   molte:
-\end{itemize}
 
 Messa in evidenza in un grafico di meta analisi \textbf{l'efficacia
 degli antidepressivi in relazione alla gravità della depressione,}
@@ -347,11 +274,10 @@ Quindi possiamo somministrare:
   Quindi che il placebo sia una sostanza inerte, non è del tutto vero:
   il placebo modifica le aree cerebrali, cioè le stesse che modificano i
   farmaci; lo stesso fa la psicoterapia.
-\end{itemize}
 
-\begin{itemize}
 \item
   TERAPIA FARMACOLOGICA
+  
 \item
   TERAPIA PSICOTERAPEUTICA, di quest'ultime è dimostrata l'efficacia
   solo se ad orientamento cognitivo comportamentale.
@@ -412,14 +338,11 @@ seguono il trattamento e le visite hanno un rischio di suicidio
 dimezzato rispetto a quelli che non lo fanno: per cui lavorare su questo
 è importante, perchè è ridotto il tasso di suicidio del 50\%.
 
-\begin{itemize}
+
 \item
   Per pazienti con GRAVITÀ ELEVATISSIMA:
-\end{itemize}
 
-\begin{itemize}
-\item
-  L'ELETTROSHOCK è stato scoperto da un neurologo italiano negli anni
+L'ELETTROSHOCK è stato scoperto da un neurologo italiano negli anni
   30, Ugo Cerletti. I farmaci esistono dagli anni '50, prima non si
   sapeva cosa fare.
 
@@ -449,25 +372,19 @@ dimezzato rispetto a quelli che non lo fanno: per cui lavorare su questo
   il movimento del piede, il paziente è curarizzato. È utile solo in
   questi casi, non ha altre indicazioni, farlo senza è una malpractice:
   oggi è praticamente limitato ai gravi rischi di suicidio.
-\end{itemize}
 
-\begin{itemize}
 \item
   Per pazienti con DEPRESSIONE DELIRANTE:
-\end{itemize}
 
-\begin{itemize}
-\item
   ANTIDEPRESSIVI con associati ANTISPSICOTICI sono raccomandati, se è
   presente sintomatologia delirante.
-\end{itemize}
 
-\begin{itemize}
+
 \item
   Per pazienti con DEPRESSIONE associata a PATOLOGIA CORONARICA:
 
   La depressione rappresenta un aumento di rischio di mortalità in
-  pazienti con paotlogia coronarica.
+  pazienti con patologia coronarica.
 
   Se prendiamo in considerazione pazienti con sintomi depresssivi
   (pazienti sotto soglia, in cui il quadro clinico depressivo non
@@ -478,12 +395,12 @@ dimezzato rispetto a quelli che non lo fanno: per cui lavorare su questo
 
   Più la depressione è lunga, più questo moltiplicatore del rischio
   aumenta:
-
+\begin{itemize}
+\item
   2 se meno di 6 mesi
-\end{itemize}
-
-\begin{quote}
+\item
 2.6 se più di 6 mesi
+\end{itemize}
 
 Diventa quindi importante anche ciò che è sotto soglia, perchè ha
 un'influenza infausta sul decorso di tutte le patologie, soprattutto
@@ -513,7 +430,6 @@ L'altro gruppo oltre alla visita cardiologica riceve una psicoterapia
 cognitivo comportamentale.
 
 I due strumenti di valutazione:
-\end{quote}
 
 \begin{itemize}
 \item
@@ -525,22 +441,20 @@ I due strumenti di valutazione:
   osservatore tende a ridurre questa gravità}
 \end{itemize}
 
-\begin{quote}
-Il risulato è che si si ha un miglioramento in entrambi i casi della
+Il risultato è che si si ha un miglioramento in entrambi i casi della
 depressione ed è qui sorge il problema: esistono due trattamenti che,
 secondo le linee guida, sono entrambi efficaci per le depressioni lievi.
 Però i farmaci riducono la mortalità e i nuovi rischi di infarto, mentre
 la psicoterapia, pur essendo efficace nella depressione non agisce sul
 versante cardiovascolare.
 
-Allora perche gli antidepressivi funzionano anche sul cuore? Lo si deve
+Allora perché gli antidepressivi funzionano anche sul cuore? Lo si deve
 al fatto che loro sono anche anti-aggreganti piastrinici? Non esiste
 ancora risposta a questo quesito.
 
 \emph{Cochrane}, ente privato che si occupa dei problemi sanitari (in
 genere fa delle metanalisi o revisioni) ha effettuato uno studio a
 riguardo. Gli studi di questa agenzia hanno 3 destinatari:
-\end{quote}
 
 \begin{itemize}
 \item
@@ -551,17 +465,15 @@ riguardo. Gli studi di questa agenzia hanno 3 destinatari:
   amministratori sanitari
 \end{itemize}
 
-\begin{quote}
+
 \textbf{Si è concluso che gli interventi psicologici nel loro complesso
 non hanno mostrato efficacia sulla mortalità totale cardiaca}, benchè
 mostrino una riduzione nei livelli di ansia e depressione nei pazienti
 con cardiopatia coronarica; questa è in parte la spiegazione del perchè
 anche con depressione subliminare vanno trattati.
-\end{quote}
+\end{itemize}
 
-\begin{enumerate}
-\def\labelenumi{\arabic{enumi}.}
-\item
+\item[2.]
   E' introdotto oltre al criterio di gravità anche quello di
   \textbf{DURATA}:
 
@@ -570,11 +482,14 @@ anche con depressione subliminare vanno trattati.
   prolungata. Quindi un caso di non particolare gravità, ma di durata
   prolungata, può trovare questa indicazione: è il caso della
   depressione sotto soglia, anche detta minore.
-\end{enumerate}
+\end{itemize}
 
-\textbf{\emph{FARMACI ANTIDEPRESSIVI:}}
+\subsubsection{Farmaci antidepressivi}
 
-\includegraphics[width=4.96389in,height=3.02431in]{media/image1.jpeg}
+\begin{figure}[!ht]
+\centering
+	\includegraphics[width=0.9\textwidth]{03/image1.jpeg}
+\end{figure}
 
 Per gli \textbf{episodi} \textbf{depressivi}, il trattamento si basa
 sull'uso dei \emph{farmaci antidepressivi} e, nei casi più gravi, della
@@ -589,9 +504,7 @@ della Noradrenalina), gli agonisti melatoninergici ed i \textbf{NaSSA}
 (Antidepressivi noradrenergici e serotoninergici specifici).
 
 \begin{itemize}
-\item
-  \emph{MECCANISMO:}
-\end{itemize}
+\item MECCANISMO:
 
 \begin{itemize}
 \item
@@ -605,7 +518,8 @@ della Noradrenalina), gli agonisti melatoninergici ed i \textbf{NaSSA}
   \end{itemize}
 \end{itemize}
 
-\textbf{1\emph{.ANTIDEPRESSIVI TRICILICI (TCA):}}
+\begin{itemize}
+\item[1.] ANTIDEPRESSIVI TRICILICI (TCA)
 
 \emph{\emph{Usi Clinici:}}
 
@@ -638,9 +552,6 @@ depressione}, ad esempio:
   farmaci che agisce sul sistema della serotonina. Dando altri
   triciclici non si nota nessun miglioramento; quindi solo modificando
   appena la struttura è ottenuta una diversa efficacia e tollerabilità.
-\end{itemize}
-
-\begin{itemize}
 \item
   mentre l'\textbf{imipramina} è efficace anche contro i sintomi del
   \emph{disturbo di panico.}
@@ -663,15 +574,15 @@ In particolare:
 
 \begin{itemize}
 \item
-  \emph{Anti-alfa 1} → Il tono delle arteriole dipende molto dalle alfa
+  \emph{Anti-alfa 1} -> Il tono delle arteriole dipende molto dalle alfa
   1, infatti i nostri pz hanno ipotensione ortostatica (in un giovane si
   annebbia la vista, mentre nell'anziano è più grave la situazione
   soprattutto se ha una placca emodinamicamente significativa come
   dicono i doppleristi)
 \item
-  \emph{Anti-H1} → Aumento ponderale/ sedazione
+  \emph{Anti-H1} -> Aumento ponderale/ sedazione
 \item
-  \emph{Anti-muscarinici} → in senso cranio-caudale causano alterazioni
+  \emph{Anti-muscarinici} -> in senso cranio-caudale causano alterazioni
   funzioni cognitive, glaucoma per aumento della pressione endo-oculare,
   lacrimazione, xerostomia (secchezza cavo orale quindi se deve parlare
   ve ne accorgete dopo un po di esperienza; se è anziano ed ha la
@@ -714,7 +625,7 @@ farmaci a seguire) sono farmaci usati per depressioni non molto gravi,
 in compenso migliora il proflilo di tollerabilità, avendo comunque
 qualche effetto collaterale come nausea, agitazione.
 
-\textbf{\emph{2.SSRI:}}
+\item[2.] \emph{2.SSRI}
 
 Nei serotoninergici cambia radicalmente la struttura:
 
@@ -762,21 +673,21 @@ IMAO, clomipramina o triptofano può determinare lo sviluppo della
 cosiddetta \textbf{sindrome serotoninergica},che si manifesta con
 irrequietezza motoria, agitazione e disturbi gastroenterici.
 
-\textbf{\emph{3.NARI:}}
+\item[3.] \textbf{\emph{NARI:}}
 
 la \textbf{Reboxetina}, un inibitore selettivo della noradrenalina
 (NARI), ben tollerata dagli anziani per il fatto che dà pochi effetti
 collaterali.
 
-\textbf{\emph{4.NASSA}}:
+\item[4.] \textbf{\emph{NASSA}}:
 
 La \textbf{mirtazapina}, un antidepressivo serotoninergico specifico e
-noradrenergico, che agisce bloccando gli autocettori presinaptici α2. Ha
+noradrenergico, che agisce bloccando gli autocettori presinaptici $\alpha$2. Ha
 attività antidepressiva ma anche attività sedative e stimolanti
 l'appetito, per cui viene in genere somministrata in un'unica dose alla
 sera e in pazienti con scarso appetito.
 
-\textbf{\emph{5.IMAO(Inibitori della Monoamino Ossidasi):}}
+\item[5.] \textbf{\emph{IMAO(Inibitori della Monoamino Ossidasi):}}
 
 \emph{\emph{Usi clinici:}}
 
@@ -859,7 +770,7 @@ noradrenalina e IMAO non vanno particolarmente d'accordo e si possono
 generare crisi ipertensive. Per gli altri farmaci il discorso è molto
 più sfumato.
 
-\textbf{\emph{6.SNRI:}}
+\item[6.] \textbf{\emph{SNRI:}}
 
 Tra i composti di nuova generazione vanno ricordati la
 \textbf{venlafaxina}, un inibitore della ricaptazione della serotonina e
@@ -868,7 +779,7 @@ della noradrenalina.
 La \textbf{duloxetina}, un inibitore bilanciato della ricaptazione della
 serotonina e della noradrenalina, ancora non disponibile in Italia.
 
-\textbf{\emph{7.NDRI:}}
+\item[7.] \textbf{\emph{NDRI:}}
 
 Il \textbf{bupropione}, inizialmente commercializzato in Italia come
 farmaco anti-fumo, è un antidepressivo che agisce inibendo la
@@ -876,17 +787,16 @@ ricaptazione della dopamina e della noradrenalina, prescritto
 soprattutto per i pazienti con depressione bipolare perché sembra avere
 un minor rischio di switch rispetto agli altri antidepressivi.
 
-\textbf{\emph{8.TRAZODONE:}}
+\item[8.] \textbf{\emph{TRAZODONE:}}
 
 Il \textbf{trazodone} (Trittico), un antidepressivo ad azione
 serotoninergica mista, che ha limitati effetti collaterali come
 sedazione, sonnolenza, vertigini, ipotensione ortostatica o disturbi del
 tratto gastro-enterico.
+\end{itemize}
 
-\begin{itemize}
 \item
   \emph{TEMPO di LATENZA e TERAPIA IN PZ CON IDEAZIONE SUICIDARIA:}
-\end{itemize}
 
 Per esercitare il loro effetto i farmaci antidepressivi hanno bisogno di
 DUE SETTIMANE DI TEMPO: Qualunque farmaco (elettroshock escluso)
@@ -975,10 +885,8 @@ Il problema è: è stato davvero il farmaco ad indurlo? oppure il collega
 ha valutato male i rischi e l'ha rimandato a casa quando non avrebbe
 dovuto?
 
-\begin{itemize}
 \item
   \emph{TERAPIA ANTIDEPRESSIVA IN ASSOCIAZIONE CON BDZ:}
-\end{itemize}
 
 Attenzione ad un'altra cosa (e qui veniamo ai serotoninergici). Se io ho
 un'ideazione suicida, uno dei fattori che influenza molto il fatto che
@@ -1034,6 +942,7 @@ serviva a calmare l'ansia, ora dà come effetto collaterale l'ansia. Il
 soggetto prima dormiva? Allora la benzodiazepina non serve. Quando
 vediamo che l'antidepressivo permette al paziente di tornare a dormire e
 mangiare allora è il caso di toglierlo.
+\end{itemize}
 
 \emph{Riassumendo}: \textbf{ATTENTI ALLE PRIME DUE SETTIMANE}!
 
@@ -1051,7 +960,6 @@ atto la terapia con benzodiazepina per migliorare il suo umore in questi
 \begin{itemize}
 \item
   \emph{MANCATO EFFETTO DEL FARMACO DOPO 2 SETTIMANE:}
-\end{itemize}
 
 Dopo le \textbf{due settimane} \textbf{inizia} l'effetto che si
 manifesta all'\textbf{apice} \textbf{dopo circa} \textbf{2 mesi}.
@@ -1061,17 +969,14 @@ situazioni cambi dopo ulteriore tempo.
 
 Quindi quali possono essere le soluzioni:
 
-\begin{enumerate}
-\def\labelenumi{\arabic{enumi}.}
-\item
+\begin{itemize}
+\item[1.]
   Se il paziente dopo un mese non ha il minimo miglioramento allora
   aumento il dosaggio (partendo dalla dose minima efficace: infatti vi
   ricordo che per ogni farmaco esiste una dose minima efficace e una
   dose massima ed in questo range noi possiamo aumentare la quantità per
   migliorare la salute del paziente).
-\end{enumerate}
 
-\begin{quote}
 Bisogna agire alla svelta, perché il malato inizia a non avere più
 fiducia nel medico e potrebbe anche cominciare a pensare che la sua
 condizione non sia guaribile. Arrivati fino a 40 mg non ho effetti,
@@ -1080,15 +985,10 @@ hanno lo stesso meccanismo d'azione (fluoxacina è il capostipite e poi
 ci sono tutti i figli e nipoti): li proviamo tutti? E' inutile perché
 l'efficacia intraclasse è decisamente sovrapponibile, quindi la
 soluzione è:
-\end{quote}
 
-\begin{enumerate}
-\def\labelenumi{\arabic{enumi}.}
-\item
+\item[2.]
   Cambiare farmaco:
-\end{enumerate}
 
-\begin{quote}
 C'è anche chi sostiene che se un farmaco dopo 2 settimane non ha ancora
 manifestato un suo effetto vada cambiato; io aspetto almeno un mese.
 Prima cosa dopo 15 giorni devo avere i primi effetti del farmaco, non
@@ -1103,11 +1003,8 @@ sufficiente, allora lavoro su 2.
 Non è sufficiente nemmeno quello? Allora uso quello da 3. Finora non
 abbiamo nessun farmaco che blocchi Serotonina, Noradrenalina e Dopamina.
 Ne abbiamo uno che blocca solo la Dopamina ed è Bupropione.
-\end{quote}
 
-\begin{enumerate}
-\def\labelenumi{\arabic{enumi}.}
-\item
+\item[3.]
   Puntare delll'acetilcolina: terzo meccanismo non mira tanto alle
   monamine, quanto all'acetilcolina. Tant'è che c'è un'ipotesi sulla
   patogenesi della depressione, riguardo al fatto che derivi da uno
@@ -1117,30 +1014,23 @@ Ne abbiamo uno che blocca solo la Dopamina ed è Bupropione.
   meccanismo aggiuntivo. E non è nemmeno un caso che nelle depressioni
   maggiori, che non rispondono ai farmaci i triciclici, rappresentino
   una risorsa (proprio per la loro azione).
-\end{enumerate}
 
-\begin{quote}
 Ricordate sempre che tutti i farmaci più "sporchi" hanno sempre un
 effetto maggiore e vale sia per gli antidepressivi, antipsicotici ed in
 parte anche per gli stabilizzatori dell'umore.
-\end{quote}
 
-\begin{enumerate}
-\def\labelenumi{\arabic{enumi}.}
-\item
-  Assocciare degli stabilizzatori insieme agli antidepressivi.
-\item
+\item[4.]
+  Associare degli stabilizzatori insieme agli antidepressivi.
+\item[5.]
   In certi pazienti la terapia risulterà comunque scarsamente efficace,
   perché abbiamo fattori ambientali che non aiutano a risolvere il
   problema. Inoltre utilizzare troppi farmaci demoralizza il paziente,
   sopratutto se non vede risultati. In questi casi il nostro obiettivo è
   di farlo vivere nella minore delle peggiori condizioni.
-\end{enumerate}
+\end{itemize}
 
-\begin{itemize}
 \item
   \emph{DURATA DELLA TERAPIA:}
-\end{itemize}
 
 Dopo 3 mesi il paziente sta bene. Cosa significa? Che torno a stare come
 stavo prima di essere depresso. Nonostante il miglioramento è bene che
@@ -1155,18 +1045,18 @@ Dobbiamo andare avanti con la stessa dose per 6 mesi: se la situazione
 rimane stabile allora la terapia deve essere lentamente sospesa (almeno
 un paio di mesi), mai bruscamente. Questo vale per tutti gli episodi
 depressivi.
+\end{itemize}
 
 Riassumendo in \textbf{totale dura 9 mesi}.
 
-\begin{enumerate}
-\def\labelenumi{\arabic{enumi}.}
-\item
+\begin{itemize}
+\item[1.]
   Si inizia la terapia per ristabilire il suo stato d'animo com'era
   prima (\textbf{3 mesi})
-\item
+\item[2.]
   Si continua per circa \textbf{6 mesi} per evitare la ricomparsa dei
   sintomi depressivi
-\end{enumerate}
+\end{itemize}
 
 Ma ci sono tre variabili da considerare:
 
@@ -1177,9 +1067,7 @@ Ma ci sono tre variabili da considerare:
   meglio, quando deve mirare ad un solo problema: quindi, se deve
   combattere le circostanze che hanno indotto la depressione e che la
   mantengono, allora il quadro si complica.
-\end{itemize}
 
-\begin{quote}
 Esempio clinico: una paziente depressa, perché ha dovuto assistere da
 sola (i figli vivono all'estero) il marito demente e non
 autosufficiente, facendo una vita da reclusa per anni. Il marito è poi
@@ -1189,9 +1077,7 @@ senza il marito risulta vuota. Sommate quindi fattori fisici, economici,
 solitudine ed altri fattori che gravano sopratutto sugli anziani. Anche
 il tasso di suicidio rispecchia queste considerazioni (più alto negli
 anziani uomini e soli).
-\end{quote}
 
-\begin{itemize}
 \item
   GRAVITA' EPISODIO: tanto più è grave l'episodio tanto piùlunga dovrà
   essere la terapia.
@@ -1213,7 +1099,7 @@ fondamentale che quando il paziente sta bene, sta bene senza terapia.
 
 Il problema è capire se ha senso fare una terapia a lungo termine in un
 paziente dopo il primo episodio. Generalmente ci poniamo il dubbio dopo
-il 3° episodio perché vuol dire che io ho un disturbo importante e,
+il 3\textsuperscript{o} episodio perché vuol dire che io ho un disturbo importante e,
 ancora più allarmante, con una frequenza elevata. Allora quel disturbo è
 grave e posso pensare di fare una \textbf{terapia di mantenimento} che
 non ha l'obiettivo di far star bene il soggetto, ma di ridurre il
@@ -1270,7 +1156,7 @@ necessitano gli inibitori irreversibili dipendono dal tempo che mi ci
 vuole per risintetizzare l'enzima. Inoltre dobbiamo distinguere tra gli
 effetti serotoninergici e la crisi serotoninergica .
 
-\textbf{\emph{TRATTAMENTO DEL DISTURBO BIPOLARE}}
+\subsection{Trattamento del disturbo bipolare}
 
 Quello degli \textbf{stabilizzanti dell'umore} sono un gruppo eterogeneo
 di farmaci con diversa struttura molecolare e meccanismo d'azione
@@ -1308,7 +1194,7 @@ più recenti dicono di cominciare il prima possibile, quelle antecedenti
 dicevano: primo episodio, se è grave, trattarlo, o, se non
 particolarmente grave, trattare dal secondo episodio in poi.
 
-\emph{FARMACI USATI NEL DISTURBO BIPOLARE:}
+\subsubsection{Farmaci usati nel disturbo bipolare}
 
 \begin{itemize}
 \item
@@ -1333,16 +1219,11 @@ particolarmente grave, trattare dal secondo episodio in poi.
   antipsicotici.
 \end{itemize}
 
-\begin{enumerate}
-\def\labelenumi{\arabic{enumi}.}
-\item
-  \textbf{\emph{STABILIZZANTI UMORE DI PRIMA GENERAZIONE}}:
-\end{enumerate}
+\subsubsection{Stabilizzanti dell'umore di prima generazione}
 
 \begin{itemize}
 \item
   \textbf{\emph{CARBONATO DI LITIO}}:
-\end{itemize}
 
 Il \textbf{litio} è un catione monovalente, simile al sodio e al
 potassio, è il metallo alcalino dal minor peso atomico, essendo peraltro
@@ -1425,9 +1306,6 @@ vicenda:
 \begin{itemize}
 \item
   Terapia di \textbf{mantenimento del disturbo bipolare}
-\end{itemize}
-
-\begin{itemize}
 \item
   Terapia della \textbf{mania grave} in associazione con gli
   antipsicotici
@@ -1512,8 +1390,7 @@ Compaiono già nell'intervallo terapeutico, sono relativamente frequenti,
 e possono essere distinti in \textbf{\emph{effetti ad esordio precoce}}
 e \textbf{\emph{ad esordio tardivo}}:
 
-\begin{enumerate}
-\def\labelenumi{\arabic{enumi}.}
+\begin{itemize}
 \item
   DISTURBI DEL TRATTO GASTRO-ENTERICO: nelle prime settimane si hanno
   dei sintomi come \textbf{nausea}, \textbf{diarrea} e/o
@@ -1580,7 +1457,7 @@ e \textbf{\emph{ad esordio tardivo}}:
   TERATOGENO: non bisogna dimenticare che il litio ha un notevole
   rischio teratogeno, tanto che se assunto in gravidanza, specie nel
   primo trimestre, può causare la sindrome di Ebstein.
-\end{enumerate}
+\end{itemize}
 
 \emph{\emph{Controindicazioni:}}
 
@@ -1592,10 +1469,8 @@ Il litio risulta quindi controindicato nei pazienti con insufficienza
 renale, con infarto miocardico acuto, scompenso cardiaco, aritmie,
 miastenia gravis ed epilessia.
 
-\begin{itemize}
 \item
   \textbf{\emph{CARBAMAZEPINA:}}
-\end{itemize}
 
 La carbamazepina (CBZ) è un antiepilettico con struttura triciclica
 simile a quella dell'imipramina, somministrata per via orale, essendo
@@ -1649,7 +1524,7 @@ genere per non più di 200 mg/die. Negli episodi maniacali, la CBZ ha una
 latenza inferiore rispetto al litio, e può essere usata in fase acuta a
 dosi di 600-1000 mg/die, mentre per il mantenimento le dosi variano tra
 400 e 1600 mg/die. Il livello plasmatico considerato terapeutico oscilla
-tra 4 e 12 μg/mL, l'emocromo con formula va ripetuto 1 volta a settimana
+tra 4 e 12 $\mu$g/mL, l'emocromo con formula va ripetuto 1 volta a settimana
 per le prime 3 settimane, poi 1 volta al mese per i primi 3 mesi e poi
 una volta ogni 6 mesi, mentre i test di funzionalità epatica vanno
 ripetuti almeno una volta ogni 6 mesi.
@@ -1658,8 +1533,7 @@ ripetuti almeno una volta ogni 6 mesi.
 
 I più comuni effetti collaterali della carbamazepina sono:
 
-\begin{enumerate}
-\def\labelenumi{\arabic{enumi}.}
+\begin{itemize}
 \item
   DISTURBI GASTRO-INTESTINALI: come la nausea ed il vomito, in genere
   transitori e reversibili.
@@ -1698,7 +1572,7 @@ I più comuni effetti collaterali della carbamazepina sono:
   che la carbamazepina è un potente induttore dei CYP, per cui i
   contraccettivi orali, il warfarin, il valproato, i corticosteroidi e i
   teofillinici risultano metabolizzati più velocemente.
-\end{enumerate}
+\end{itemize}
 
 \emph{\emph{Controindicazioni}}:
 
@@ -1710,10 +1584,8 @@ Controindicazioni relative sono: l'età avanzata, il glaucoma, la
 ritenzione urinaria, le alterazioni del bilancio del sodio e disturbi
 cardiaci, epatici o renali.
 
-\begin{itemize}
 \item
-  \textbf{\emph{ACIDO VALPROICO (DEPAKIN/VALPROATO DI SODIO)}}:
-\end{itemize}
+  \textbf{\emph{ACIDO VALPROICO (DEPAKIN/VALPROATO DI SODIO)}}
 
 \emph{\emph{Farmacocinetica:}}
 
@@ -1781,14 +1653,13 @@ per la carbamazepina, e si deve ripetere gli esami ogni mese per i primi
 3 mesi, poi una volta ogni 4-6 mesi. La dose iniziale è di
 \textbf{200-300 mg/die}, da aumentare a 200-700 mg/die ogni 2-7 giorni,
 finchè i livelli sierici non siano tra i \textbf{45} ed i \textbf{120
-μg/mL}.
+$\mu$g/mL}.
 
 \emph{\emph{Effetti Collaterali:}}
 
 I più comuni effetti collaterali del valproato interessano:
 
-\begin{enumerate}
-\def\labelenumi{\arabic{enumi}.}
+\begin{itemize}
 \item
   IL TRATTO GASTRO-INTESTINALE, con \emph{nausea e vomito}, e sono in
   genere alleviati da una riduzione del dosaggio o dall'uso di
@@ -1835,7 +1706,7 @@ I più comuni effetti collaterali del valproato interessano:
   l'aspirina (che spiazza il farmaco dall'albumina), gli SSRI, gli SNRI
   e la cimetidina fanno aumentare i livelli di valproato, mentre la
   lamotrigina e la carbamazepina ne riducono i livelli.
-\end{enumerate}
+\end{itemize}
 
 \emph{\emph{Contrindicazioni:}}
 
@@ -1846,42 +1717,35 @@ Controindicazioni assolute all'uso del valproato sono quindi la
 Controindicazioni relative sono l'\emph{età avanzata}, i \emph{deficit
 del ciclo dell'urea} (aumenta il rischio di iperammoniemia) e
 l'\emph{insufficienza renale}.
+\end{itemize}
 
-\begin{enumerate}
-\def\labelenumi{\arabic{enumi}.}
-\item
-  \emph{\textbf{STABILIZZANTI DELL'UMORE DI SECONDA GENERAZIONE} :}
-\end{enumerate}
+\subsubsection{Stabilizzanti dell'umore di seconda generazione}
 
-\begin{longtable}[]{@{}lll@{}}
-\toprule
-\textbf{\emph{Farmaco}} & \textbf{\emph{Meccanismo d'Azione}} &
-\textbf{\emph{Effetti Collaterali}}\tabularnewline
-\midrule
-\endhead
-\textbf{Lamotrigina} & Blocco dei canali del Na\textsuperscript{+} e del
-Ca\textsuperscript{2+}, riduzione dell'azione eccitante del glutammato &
-Atassia, diploipia, vertigini, rash cutanei e sindrome di Steven-Johnson
-(soprattutto nei bambini)\tabularnewline
-\textbf{Gabapentin} & Composto GABA-mimetico, interagisce col
-trasportatore del GABA, non coi recettori & Sedazione, atassia, cefalea,
-nausea e vomito\tabularnewline
-\textbf{Topiramato} & Potenzia l'azione GABAergica, riduce l'azione del
+\begin{table}
+%\caption{Please write your table caption here}
+\begin{tabular}{p{0.14\textwidth}p{0.43\textwidth}p{0.43\textwidth}}
+\hline\noalign{\smallskip}
+\textbf{Farmaco} & \textbf{Meccanismo d'Azione} & \textbf{Effetti Collaterali}  \\
+\noalign{\smallskip}\svhline\noalign{\smallskip}
+
+Lamotrigina &	Blocco dei canali del Na\textsuperscript{+} e del
+Ca\textsuperscript{2+}, riduzione dell'azione eccitante del glutammato	& Atassia, diploipia, vertigini, rash cutanei e sindrome di Steven-Johnson (soprattutto nei bambini) \\
+Gabapentin &	 Composto GABA-mimetico, interagisce col
+trasportatore del GABA, non coi recettori & Sedazione, atassia, cefalea, nausea e vomito \\
+Topiramato &	 Potenzia l'azione GABAergica, riduce l'azione del
 glutammato, interagisce coi canali del Na\textsuperscript{+} e del
-Ca\textsuperscript{2+}, inibisce gli isoenzimi II e IV dell'anidrasi
-carbonica & Cefalea, confusione, vertigini, difficoltà a concentrarsi,
-calo ponderale, nefrolitiasi e parestesie\tabularnewline
-\textbf{Oxcarbazepina} & Stessi meccanismi d'azione della carbamazepina
-& Nausea, sedazione, cefalea ed iponatriemia\tabularnewline
-\bottomrule
-\end{longtable}
+Ca\textsuperscript{2+}, inibisce gli isoenzimi II e IV dell'anidrasi carbonica	& Cefalea, confusione, vertigini, difficoltà a concentrarsi,
+calo ponderale, nefrolitiasi e parestesie \\
+Oxcarbazepina & Stessi meccanismi d'azione della carbamazepina & Nausea, sedazione, cefalea ed iponatriemia \\
+
+\noalign{\smallskip}\hline\noalign{\smallskip}
+\end{tabular}
+\end{table}
 
 \begin{itemize}
 \item
   \textbf{\emph{LAMOTRIGINA}}:
-\end{itemize}
 
-\begin{quote}
 \emph{\emph{Uso clinico:}}
 
 Sarebbe da non usare in monoterapia con pz con disturbo bipolare I
@@ -1902,7 +1766,6 @@ trascurare una reazione allergica, anche perché la Steven-Johnson non
 compare all'improvviso. Sono reazioni cutanee localizzate di
 arrossamento che poi si risolvono da sole, se progrediscono bisogna
 sospendere.
-\end{quote}
 
 \emph{UTILIZZO DEI FARMACI:}
 
@@ -1944,8 +1807,7 @@ ragioni fondamentali:
 \item
   rischieremmo di rendere ancora più instabile l'umore.
 \item
-  non vogliamo rischiare di passare a uno stato di mania (switch)
-  :bisogna sempre prestare attenzione al possibile fenomeno dello
+  non vogliamo rischiare di passare a uno stato di mania (switch): bisogna sempre prestare attenzione al possibile fenomeno dello
   \textbf{switch-out}, cioè al possibile sviluppo di una fase maniacale
   o ipomaniacale dovuta all'azione dell'antidepressivo: i farmaci con
   più elevato rischio di tale fenomeno sono i TCA, seguiti dalla
@@ -2046,4 +1908,4 @@ di sostanze soprattutto quando sono in fase maniacale o quando stanno
 regredendo o entrando nella fase depressiva). Le sostanze sono
 grandissimi attivatori delle alterazioni dell'umore. Alcool incluso.
 
-\end{document}
+\end{itemize}
