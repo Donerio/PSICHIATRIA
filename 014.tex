@@ -1,78 +1,11 @@
-\documentclass[]{article}
-\usepackage{lmodern}
-\usepackage{amssymb,amsmath}
-\usepackage{ifxetex,ifluatex}
-\usepackage{fixltx2e} % provides \textsubscript
-\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
-  \usepackage[T1]{fontenc}
-  \usepackage[utf8]{inputenc}
-\else % if luatex or xelatex
-  \ifxetex
-    \usepackage{mathspec}
-  \else
-    \usepackage{fontspec}
-  \fi
-  \defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
-\fi
-% use upquote if available, for straight quotes in verbatim environments
-\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
-% use microtype if available
-\IfFileExists{microtype.sty}{%
-\usepackage{microtype}
-\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
-}{}
-\usepackage[unicode=true]{hyperref}
-\hypersetup{
-            pdfborder={0 0 0},
-            breaklinks=true}
-\urlstyle{same}  % don't use monospace font for urls
-\usepackage{graphicx,grffile}
-\makeatletter
-\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
-\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
-\makeatother
-% Scale images if necessary, so that they will not overflow the page
-% margins by default, and it is still possible to overwrite the defaults
-% using explicit options in \includegraphics[width, height, ...]{}
-\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
-\IfFileExists{parskip.sty}{%
-\usepackage{parskip}
-}{% else
-\setlength{\parindent}{0pt}
-\setlength{\parskip}{6pt plus 2pt minus 1pt}
-}
-\setlength{\emergencystretch}{3em}  % prevent overfull lines
-\providecommand{\tightlist}{%
-  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
-\setcounter{secnumdepth}{0}
-% Redefines (sub)paragraphs to behave more like sections
-\ifx\paragraph\undefined\else
-\let\oldparagraph\paragraph
-\renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
-\fi
-\ifx\subparagraph\undefined\else
-\let\oldsubparagraph\subparagraph
-\renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
-\fi
-
-% set default figure placement to htbp
-\makeatletter
-\def\fps@figure{htbp}
-\makeatother
-
-
-\date{}
-
-\begin{document}
-
-\textbf{\emph{AUTISMO:}}
+\section{Autismo}
 
 L'autismo è una patologia complessa, che oggi si ritiene essere in
 vorticoso aumento. Per la stranezza del quadro clinico e per altri
 motivi, la comunità scientifica negli ultimi 10 anni ha sviluppato un
 grande interesse per questa patologia.
 
-\emph{\textbf{Definizione}}
+\subsection{Definizione}
 
 Con il termine autismo ci riferiamo a un vario e variabile numero di
 quadri patologici che nel loro insieme definiscono un continuum da forme
@@ -121,7 +54,7 @@ veramente difficile intendersi.
 Quindi questo spettro è come un grande ombrello sotto cui troviamo
 espressioni fenotipiche le più disparate e diverse.
 
-\emph{\textbf{Storia}}
+\subsection{Storia}
 
 L'autismo veniva in origine definito ``autismo infantile'', termine
 coniato da Kanner nel 1942, preso da Bloiler (psicanalista contemporaneo
@@ -214,7 +147,7 @@ Problemi del nuovo modello:
   comprende proprio nulla).
 \end{itemize}
 
-\emph{\textbf{Epidemiologia.}}
+\subsection{Epidemiologia}
 
 Molto più frequente nei maschi che nelle femmine, rapporto 4:1.
 
@@ -262,7 +195,7 @@ servizi per l'età evolutiva ai servizi per l'età adulta, non compare più
 la parola ``autismo'' ma diventano ``persone con ritardo mentale'' o
 vengono classificati come ``esiti di psicosi infantile''.
 
-\emph{\textbf{Clinica}}
+\subsection{Clinica}
 
 Quello che vediamo nella persona autistica è legato ad anomalie presenti
 nei seguenti domini:
@@ -288,11 +221,13 @@ nei seguenti domini:
 
 analizziamo nel dettaglio:
 
-\includegraphics[width=6.69792in,height=5.00000in]{media/image1.png}
+\begin{figure}[!ht]
+\centering
+	\includegraphics[width=0.9\textwidth]{014/image1.png}
+\end{figure}
 
-\begin{enumerate}
-\def\labelenumi{\arabic{enumi}.}
-\item
+\begin{itemize}
+\item[1.]
   \textbf{difficoltà a stare con i pari.} Classicamente si vede un
   bambino al nido/alla materna/alle elementari in disparte, talvolta
   questo bisogno diventa proprio fisico di allontanamento; girano su se
@@ -300,7 +235,7 @@ analizziamo nel dettaglio:
   tessuto, strappano le pagine di un libro -- non per fare un dispetto
   ma perché la consistenza della carta e il rumore della carta strappata
   rientrano nell'autosensorilità (vedi poi)
-\item
+\item[2.]
   \textbf{manifestazioni emotive inappropriate.} Molto frequente di
   fronte a qualcosa che li disturba, che fa male in senso lato, loro si
   portano le mani alle orecchie. Può essere che abbiano visto una
@@ -311,16 +246,16 @@ analizziamo nel dettaglio:
   sentire''. A volte ci sono pianti immotivati, disperati, angosciati,
   noi non capiamo perché ma andando a indagare con domande ai genitori
   una causa si trova sempre
-\item
+\item[3.]
   \textbf{contatto oculare scarso o assente.} Caratteristica lampante:
   fanno fatica a guardare negli occhi, o magari hanno solo un contatto
   fugace. Talvolta ci sono autistici, anche gravi, che guardano negli
   occhi. In linea di massima il contatto oculare proprio non c'è
-\item
+\item[4.]
   \textbf{bisogno di sameness (immutabilità), resistenza al
   cambiamento.} I cambiamenti scatenano crisi pazzesche di agitazione,
   difficili da gestire.
-\item
+\item[5.]
   \textbf{Mancanza di reale paura del pericolo}. Ad esempio lasciano la
   mano e attraversano la strada senza guardare a destra e a sinistra, si
   avvicinano a situazioni pericolose o, anche per quelli molto
@@ -331,33 +266,35 @@ analizziamo nel dettaglio:
   indifferente, e quando la mamma li porta all'asilo è impossibile che
   piangono, tant'è che riteniamo un grande successo quando invece un
   giorno la mamma va via e il bambino piange)
-\item
+\item[6.]
   \textbf{gioco bizzarro sostenuto nel tempo}: fissare una macchinina,
   metterle in fila, scomporle e rimetterle in fila (nell'adulto ci sono
   attività altrettanto ripetitive ma adeguate all'età)
-\end{enumerate}
+\end{itemize}
 
-\includegraphics[width=6.67708in,height=4.55208in]{media/image2.png}
+\begin{figure}[!ht]
+\centering
+	\includegraphics[width=0.9\textwidth]{014/image2.png}
+\end{figure}
 
-\begin{enumerate}
-\def\labelenumi{\arabic{enumi}.}
-\item
+\begin{itemize}
+\item[1.]
   \textbf{attaccamento inappropriato agli oggetti}: anche perché
   preferiscono di gran lunga gli oggetti alle persone. Ci sono poi degli
   oggetti a cui sono particolarmente legati, il cosiddetto ``oggetto
   autistico'' che può essere qualsiasi cosa, anche un pezzetto di legno.
   Tendono a preferire gli oggetti duri rispetto a quelli morbidi
-\item
+\item[2.]
   \textbf{evidente eccesso o mancanza di attività fisica}: ipoattività o
   iperattività motoria
-\item
+\item[3.]
   \textbf{mancata risposta ai normali sistemi educativi.} Non capiscono
   le richieste, e questo non è legato al livello di intelligenza ma alla
   percezione di quello che sentono e che vedono; probabilmente questo è
   dovuto a una mancata integrazione di questi stimoli a livello del SNC
-\item
+\item[4.]
   \textbf{difficoltà ad esprimere bisogni}
-\item
+\item[5.]
   \textbf{episodi di ansia/collera senza apparente motivo.} Noi non
   capiamo, può essere un cambiamento (esempio di una bambina che a
   scuola verso la fine del pranzo, in mensa, faceva crisi pazzesche, si
@@ -365,21 +302,23 @@ analizziamo nel dettaglio:
   genitori non hanno capito perché; poi si è scoperto che in quella
   scuola davano solitamente mele gialle, lei invece era abituata, a
   casa, a mangiare mele rosse)
-\item
+\item[6.]
   \textbf{impaccio motorio.} Tipico soprattutto degli Asperger, mentre
   il bambino autistico grave è abilissimo dal punto di vista motorio
-\end{enumerate}
+\end{itemize}
 
-\includegraphics[width=6.68750in,height=4.71875in]{media/image3.png}
+\begin{figure}[!ht]
+\centering
+	\includegraphics[width=0.9\textwidth]{014/image3.png}
+\end{figure}
 
-\begin{enumerate}
-\def\labelenumi{\arabic{enumi}.}
-\item
+\begin{itemize}
+\item[1.]
   \textbf{apparente insensibilità al dolore, alle temperature}. Se
   cadono non piangono, se si scottano non piangono
-\item
+\item[2.]
   \textbf{preferenza a rimanere solo, isolato}
-\item
+\item[3.]
   \textbf{ruotare gli oggetti in modo ossessivo}. Particolare
   predilezione, probabilmente legato all'auto-sensorialità (è qualche
   cosa che parte da uno stimolo sensoriale e attraverso cui riusciamo a
@@ -405,15 +344,15 @@ analizziamo nel dettaglio:
   addirittura gli danno fastidio. Se mi avvolgo nelle sensazioni che
   provo come conseguenza a questo stimolo sensoriale, tutto mi riesce
   meno difficile, meno doloroso.
-\item
+\item[4.]
   \textbf{Ecolalia}
-\item
+\item[5.]
   \textbf{Mancata reciprocità}
-\item
+\item[6.]
   \textbf{Mancata risposta alle indicazioni verbali}
-\end{enumerate}
+\end{itemize}
 
-\emph{\textbf{{[}Breve focus sulla Sindrome di Asperger}}
+\subsection{Breve focus sulla Sindrome di Asperger}
 
 Il tasso di prevalenza è di circa 5-6/1000.
 
@@ -595,7 +534,7 @@ Quello che io ritengo normale, non lo è per gli altri'' }
 
 \emph{Sinclair}
 
-\emph{\textbf{Autismo e intersoggettività}}
+\subsection{Autismo e intersoggettività}
 
 Il paziente autistico sembra non avere accesso all'intersoggettività,
 funzione innata da cui dipende l'intero sviluppo mentale del bambino.
@@ -626,7 +565,7 @@ Rende bene l'idea degli altri che creano qualcosa di doloroso. Non si
 può accedere al rapporto con l'altro, alla reciprocità,
 all'intersoggettività: \textbf{gli altri fanno male}.
 
-\emph{\textbf{Diagnosi}}
+\subsection{Diagnosi}
 
 Gli elementi cardine sono:
 
@@ -705,7 +644,7 @@ succeda) non lo sappiamo. Di certo possiamo dire che:
   molto sfumate).
 \end{itemize}
 
-\emph{\textbf{Tipologie di soggetti autistici}}
+\subsection{Tipologie di soggetti autistici}
 
 Ci sono \textbf{autistici distaccati}, che tendono a usare l'altro come
 una protesi (un classico è prendere la mano dell'adulto e metterla sulla
@@ -715,7 +654,7 @@ che hanno una certa iniziativa di interazione}, ma lo fanno in maniera
 bizzarra e in linea di massima sempre improntata a una scarsa
 reciprocità.
 
-\emph{\textbf{Comorbidità}}
+\subsection{Comorbidità}
 
 \textbf{Neurologica:}
 
@@ -765,7 +704,7 @@ casi.
   \textbf{disturbi di personalità}, soprattutto negli Asperger
 \end{itemize}
 
-\emph{\textbf{Prognosi}}
+\subsection{Prognosi}
 
 \begin{itemize}
 \item
@@ -787,7 +726,7 @@ scambi, l'assenza di capacità empatica, in sintesi l'assenza di
 interesse per l'altro e per tutto ciò che lo circonda, rappresentano
 fattori prognostici sfavorevoli.
 
-\emph{\textbf{Eziopatogenesi }}
+\subsection{Eziopatogenesi}
 
 Moltissime le ipotesi eziopatogenetiche, nessuna esaustiva. I dati a
 disposizione sono tanti e incoerenti tra di loro: nel 25-30\% dei casi
@@ -832,7 +771,7 @@ comprensione dell'altro, del mondo, e del sé. Tutto diventa poco chiaro:
 l'altro, il funzionamento dell'altro, del mondo, le sue richieste, e
 quant'altro.
 
-\emph{\textbf{Terapia}}
+\subsection{Terapia}
 
 Non esistono interventi che curino la compromissione originaria -- anche
 perché non la conosciamo.
@@ -905,5 +844,3 @@ esempio se vogliamo educare ad andare in bagno o fare un uovo al
 tegamino: basta scomporre le immagini sequenza per sequenza. Si tratta
 semplicemente di rendergli comprensibile la realtà, come devono essere
 fatte le cose; se parlo non gli arriva nulla, o poco, o in modo caotico.
-
-\end{document}
