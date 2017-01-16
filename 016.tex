@@ -1,62 +1,4 @@
-\documentclass[]{article}
-\usepackage{lmodern}
-\usepackage{amssymb,amsmath}
-\usepackage{ifxetex,ifluatex}
-\usepackage{fixltx2e} % provides \textsubscript
-\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
-  \usepackage[T1]{fontenc}
-  \usepackage[utf8]{inputenc}
-\else % if luatex or xelatex
-  \ifxetex
-    \usepackage{mathspec}
-  \else
-    \usepackage{fontspec}
-  \fi
-  \defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
-\fi
-% use upquote if available, for straight quotes in verbatim environments
-\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
-% use microtype if available
-\IfFileExists{microtype.sty}{%
-\usepackage{microtype}
-\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
-}{}
-\usepackage[unicode=true]{hyperref}
-\hypersetup{
-            pdfborder={0 0 0},
-            breaklinks=true}
-\urlstyle{same}  % don't use monospace font for urls
-\IfFileExists{parskip.sty}{%
-\usepackage{parskip}
-}{% else
-\setlength{\parindent}{0pt}
-\setlength{\parskip}{6pt plus 2pt minus 1pt}
-}
-\setlength{\emergencystretch}{3em}  % prevent overfull lines
-\providecommand{\tightlist}{%
-  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
-\setcounter{secnumdepth}{0}
-% Redefines (sub)paragraphs to behave more like sections
-\ifx\paragraph\undefined\else
-\let\oldparagraph\paragraph
-\renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
-\fi
-\ifx\subparagraph\undefined\else
-\let\oldsubparagraph\subparagraph
-\renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
-\fi
-
-% set default figure placement to htbp
-\makeatletter
-\def\fps@figure{htbp}
-\makeatother
-
-
-\date{}
-
-\begin{document}
-
-Trattamento Sanitario Obbligatorio (TSO)
+\section{Trattamento Sanitario Obbligatorio (TSO)}
 
 L'articolo 32 della Costituzione Italiana afferma che ``\emph{La
 Repubblica tutela la salute come diritto fondamentale dell'individuo ed
@@ -115,21 +57,20 @@ TSO deve sempre essere accompagnato dalla ricerca del consenso di chi vi
 Per poter effettuare un TSO, devono essere quindi soddisfatte \emph{3
 condizioni}:
 
-\begin{enumerate}
-\def\labelenumi{\arabic{enumi}.}
-\item
+\begin{itemize}
+\item[1.]
   \textbf{Dev'essere presente un'alterazione psichica tale} (cioè
   talmente grave) \textbf{da richiedere interventi terapeutici urgenti,
   ovvero non differibili nel tempo};
-\item
+\item[2.]
   \textbf{Gli interventi terapeutici non vengono accettati dall'infermo}
   (ed il rifiuto è strettamente legato al disturbo mentale);
-\item
+\item[3.]
   \textbf{Non sussistono le condizioni e le circostanze per attuare
   idonei e tempestivi interventi in ambito extra-ospedaliero}.
-\end{enumerate}
+\end{itemize}
 
-\textbf{Procedura del TSO}
+\subsection{Procedura del TSO}
 
 \begin{itemize}
 \item
@@ -140,14 +81,12 @@ condizioni}:
   Un secondo medico dell'Unità sanitaria locale visita la persona e
   redige il documento di convalida della proposta, sempre in triplice
   copia con firma autografa.
-\end{itemize}
-
+  
 N.B.: In questa fase è necessario anche documentare tutti i tentativi
 fatti per assicurare il consenso e la partecipazione da parte di chi vi
 è obbligato, anche per far fronte a eventuali contestazioni e ricorsi
 all'autorità amministrativa e al tribunale territoriale.
 
-\begin{itemize}
 \item
   I documenti di proposta e convalida del TSO vengono recapitati,
   tramite la Polizia Municipale, al Sindaco, il quale emette l'ordinanza
@@ -163,7 +102,7 @@ il direttore del SPDC può chiedere al sindaco che ha emesso l'ordinanza
 di TSO la proroga (eventualmente ripetuta più volte) motivate,
 indicandone la durata presunta.
 
-\textbf{Garanzie del TSO}
+\subsection{Garanzie del TSO}
 
 L'ordinanza del TSO va notificata alla persona che vi è sottoposta, la
 quale conserva tutti i suoi diritti civili e politici, compreso quello
@@ -179,7 +118,7 @@ amministrare il patrimonio della persona, e chi è sottoposto a TSO o
 chiunque vi abbia interesse, può fare ricorso presso il tribunale
 competente, che decide entro 30 giorni dal ricorso.
 
-\textbf{Condizioni che non richiedono il TSO}
+\subsection{Condizioni che non richiedono il TSO}
 
 Esistono delle condizioni che, presentandosi urgenti e complesse, non
 richiedono l'attivazione delle procedure del TSO, in quanto la persona è
@@ -190,7 +129,7 @@ esprimere o negare il consenso (ad esempio per traumi, intossicazioni,
 delirium e demenze). In questi casi, infatti, si applica l'articolo 54
 del codice penale, cioè lo stato di necessità.
 
-\textbf{Limiti del TSO}
+\subsection{Limiti del TSO}
 
 Il TSO \emph{non può essere effettuato per obbligare una persona ad
 effettuare interventi diagnostici e terapeutici} per altre patologie
@@ -205,7 +144,7 @@ protezione dei familiari rispetto ai conviventi violenti}, e in questi
 casi solo un giudice, in base agli articoli 342 bis e ter del codice
 civile può disporre l'allontanamento della persona violenta.
 
-\textbf{TSO Extra-Ospedaliero e TSO nei Minori}
+\subsection{TSO Extra-Ospedaliero e TSO nei Minori}
 
 Se sussistono le prime due condizioni per il TSO ma non la terza può
 essere proposto un TSO extra-ospedaliero, che di solito viene usato solo
@@ -228,7 +167,7 @@ In entrambi i casi è utile informare il Tribunale per i Minori, in
 particolare se l'ambiente familiare non è adeguato (\textbf{articolo 403
 del codice civile}).
 
-\textbf{Accertamento Sanitario Obbligatorio (ASO)}
+\subsection{Accertamento Sanitario Obbligatorio (ASO)}
 
 L\textbf{'ASO} è un \emph{accertamento sanitario obbligatorio}
 effettuato quando si ha il fondato sospetto sulla prima condizione di
@@ -251,5 +190,3 @@ ambulatorio, e l'esito può essere notevolmente diverso, ad esempio si
 può avere una restituzione al medico di medicina generale, la presa in
 cura al CSM, il ricovero volontario o anche un TSO, ma in ogni caso
 l'esito dell'ASO va comunicato al Sindaco.
-
-\end{document}
