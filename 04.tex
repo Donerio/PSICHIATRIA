@@ -1,74 +1,4 @@
-\documentclass[]{article}
-\usepackage{lmodern}
-\usepackage{amssymb,amsmath}
-\usepackage{ifxetex,ifluatex}
-\usepackage{fixltx2e} % provides \textsubscript
-\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
-  \usepackage[T1]{fontenc}
-  \usepackage[utf8]{inputenc}
-\else % if luatex or xelatex
-  \ifxetex
-    \usepackage{mathspec}
-  \else
-    \usepackage{fontspec}
-  \fi
-  \defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
-\fi
-% use upquote if available, for straight quotes in verbatim environments
-\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
-% use microtype if available
-\IfFileExists{microtype.sty}{%
-\usepackage{microtype}
-\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
-}{}
-\usepackage[unicode=true]{hyperref}
-\hypersetup{
-            pdfborder={0 0 0},
-            breaklinks=true}
-\urlstyle{same}  % don't use monospace font for urls
-\usepackage{longtable,booktabs}
-% Fix footnotes in tables (requires footnote package)
-\IfFileExists{footnote.sty}{\usepackage{footnote}\makesavenoteenv{long table}}{}
-\usepackage{graphicx,grffile}
-\makeatletter
-\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
-\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
-\makeatother
-% Scale images if necessary, so that they will not overflow the page
-% margins by default, and it is still possible to overwrite the defaults
-% using explicit options in \includegraphics[width, height, ...]{}
-\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
-\IfFileExists{parskip.sty}{%
-\usepackage{parskip}
-}{% else
-\setlength{\parindent}{0pt}
-\setlength{\parskip}{6pt plus 2pt minus 1pt}
-}
-\setlength{\emergencystretch}{3em}  % prevent overfull lines
-\providecommand{\tightlist}{%
-  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
-\setcounter{secnumdepth}{0}
-% Redefines (sub)paragraphs to behave more like sections
-\ifx\paragraph\undefined\else
-\let\oldparagraph\paragraph
-\renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
-\fi
-\ifx\subparagraph\undefined\else
-\let\oldsubparagraph\subparagraph
-\renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
-\fi
-
-% set default figure placement to htbp
-\makeatletter
-\def\fps@figure{htbp}
-\makeatother
-
-
-\date{}
-
-\begin{document}
-
-\textbf{\emph{DISTURBO D'ANSIA:}}
+\section{Disturbo d'ansia}
 
 L'ansia è uno stato psichico, prevalentemente cosciente, caratterizzato
 da una sensazione di preoccupazione o paura, più o meno intensa o
@@ -96,10 +26,7 @@ principali sono le \textbf{fobie} (fobie specifiche e fobia sociale), il
 \textbf{disturbo d'ansia generalizzato} (GAD), il \textbf{disturbo di
 panico} ed il \textbf{disturbo} \textbf{ossessivo-compulsivo} (DOC).
 
-\begin{itemize}
-\item
-  \textbf{\emph{DISTURBO DI PANICO E ATTACCO DI PANICO:}}
-\end{itemize}
+\subsection{Disturbo di panico e attacco di panico}
 
 Il \textbf{disturbo di panico} è un disturbo mentale relativamente
 comune, che affligge fino al 5\% circa della popolazione generale in un
@@ -117,11 +44,7 @@ aumentare il rischio di tale patologia.
 È importante, a questo punto, \emph{differenziare l'\textbf{attacco di
 panico} dal \textbf{disturbo di panico}}:
 
-\begin{enumerate}
-\def\labelenumi{\arabic{enumi}.}
-\item
-  \textbf{\emph{L'ATTACCO DI PANICO:}}
-\end{enumerate}
+\paragraph{L'attacco di panico}
 
 L'ATTACCO DI PANICO secondo il DSM-IV è definito come:
 
@@ -129,38 +52,37 @@ un periodo preciso di intensa paura o disagio, durante il quale 4, o
 più, dei seguenti sintomi si sono sviluppati improvvisamente e hanno
 raggiunto il picco in 10 minuti:
 
-\begin{enumerate}
-\def\labelenumi{\arabic{enumi}.}
-\item
+\begin{itemize}
+\item[1.]
   Palpitazioni, tachicardia, cardiopalmo
-\item
+\item[2.]
   Sudorazione
-\item
+\item[3.]
   Tremori fini o a grandi scosse
-\item
+\item[4.]
   Dispnea o sensazione di soffocamento
-\item
+\item[5.]
   Sensazione di asfissia
-\item
+\item[6.]
   Dolore o fastidio al petto
-\item
+\item[7.]
   Nausea o disturbi addominali
-\item
-  Sensazioni di sbandamento, di intabilità, di testa leggera o di
+\item[8.]
+  Sensazioni di sbandamento, di instabilità, di testa leggera o di
   svenimento
-\item
+\item[9.]
   Derealizzazione (sensazione di irrealtà) o depersonalizzazione: alcuni
   riferiscono che gli sembra di guardare se stessi mentre stanno male o
   che gli sembra di essere collocati fuori dalla realtà.
-\item
+\item[10.]
   Paura di perdere il controllo o di impazzire
-\item
+\item[11.]
   Paura di morire
-\item
+\item[12.]
   Parestesie (sensazioni di torpore o di formicolio)
-\item
+\item[13.]
   Brividi o vampate di calore
-\end{enumerate}
+\end{itemize}
 
 Se un pz descrivesse un attacco di panico lo descriverebbe,
 generalmente, in questo modo:
@@ -214,9 +136,6 @@ Così definito, l'attacco di panico può essere di 3 tipi:
   poter andare da lì
 
   -luoghi difficilmente raggiungibili dai soccorsi.
-\end{itemize}
-
-\begin{itemize}
 \item
   \textbf{\emph{Attacco di Panico Sensibile dalla Situazione}}, che
   compare quando il paziente si trova in una certa situazione, ma non
@@ -230,11 +149,7 @@ non si può evitare. Il problema è che sono costantemente in ansia che
 gli venga un attacco (ansia anticipatoria). Molti pz hanno anche la
 paura delle conseguenze che quest'ansia possa avere sul loro organismo.
 
-\begin{enumerate}
-\def\labelenumi{\arabic{enumi}.}
-\item
-  \textbf{\emph{IL DISTURBO DI PANICO:}}
-\end{enumerate}
+\paragraph{Il disturbo di panico}
 
 \emph{\emph{Epidemiologia:}}
 
@@ -254,40 +169,32 @@ di panico, e in 1 caso su 3 lo può precedere).
 IL DISTURBO DI PANICO, secondo i criteri del DSM-V, è una
 \emph{condizione patologica che si caratterizza per :}
 
-\begin{enumerate}
-\def\labelenumi{\arabic{enumi}.}
-\item
+\begin{itemize}
+\item[1.]
   attacchi di panico ricorrenti e inaspettati
-\item
+\item[2.]
   almeno uno degli attacchi di panico è stato seguito da 1 mese, o più
   di:
-\end{enumerate}
 
 \begin{itemize}
 \item
   persistente paura che possano comparire altri attacchi o le
   conseguenze degli attacchi
 \item
-  significativi cambiamenti del comportamento in conseguenza all'attaco
+  significativi cambiamenti del comportamento in conseguenza all'attacco
   di panico
 \end{itemize}
 
-\begin{enumerate}
-\def\labelenumi{\arabic{enumi}.}
-\item
+\item[3.]
   gli attacchi di panico non sono in relazione con abuso di sostanza o
   altre patologie (ipertiroidismo..)
 \item
   gli attacchi di panico non sono da confondere con: Disturbo ossessivo
   compulsivo, Disturbo di Fobia sociale, Disturbo post traumatico,
   disturbo di ansia da separazione.
-\end{enumerate}
+\end{itemize}
 
-\begin{enumerate}
-\def\labelenumi{\arabic{enumi}.}
-\item
-  \textbf{\emph{AGORAFOBIA:}}
-\end{enumerate}
+\paragraph{Agorafobia}
 
 Strettamente correlata al disturbo di panico è
 l'\textbf{\emph{agorafobia}}, definita come una \emph{marcata paura o
@@ -329,9 +236,9 @@ Il DSM-IV la definisce come:
   all'azione fisiologica diretta di sostanze o di condizioni mediche
   generali, e non devono nemmeno essere connessi con un'altra patologia
   psichiatrica.
-\item
-  \textbf{\emph{TERAPIA DEL DISTURBO DI PANICO:}}
-\end{itemize}
+  \end{itemize}
+ 
+\subsubsection{Terapia del disturbo di panico}
 
 Il trattamento del disturbo di panico si pone come obbiettivi
 principali:
@@ -365,20 +272,14 @@ hanno un'\emph{efficacia che è pressoché sovrapponibile}, anche perché i
 disturbi di panico (anzi i disturdi d'ansia in generale) sono le
 patologie psichiatriche con la più elevata risposta al placebo.
 
-\begin{enumerate}
-\def\labelenumi{\arabic{enumi}.}
-\item
-  \textbf{\emph{PSICOFARMACI:}}
-\end{enumerate}
+\paragraph{Psicofarmaci}
 
 Per quanto riguarda gli \textbf{psicofarmaci}, abbiamo due classi
 farmacologiche principali più un'altra:
 
-\begin{enumerate}
-\def\labelenumi{\arabic{enumi}.}
+\begin{itemize}
 \item
-  \emph{\textbf{BENZODIAZEPINE}:}
-\end{enumerate}
+  \emph{\textbf{BENZODIAZEPINE}}
 
 In generale,la maggior parte dei paziente e dei medici generici
 preferisce optare per le BENZODIAZEPINE, che danno un effetto immediato,
@@ -416,7 +317,12 @@ specifico un alogeno o un nitrogruppo.
 
 \emph{\emph{Farmacinetica:}}
 
-\includegraphics[width=1.92708in,height=2.98958in]{media/image1.jpeg}Dal
+\begin{figure}[!ht]
+\centering
+	\includegraphics[width=0.9\textwidth]{04/image1.jpeg}
+\end{figure}
+
+Dal
 punto di vista della \textbf{farmacocinetica}, la \emph{velocità di
 assorbimento} orale di questi sedativo-ipnotici dipende da diversi
 fattori, in primis dalla loro \emph{liposolubilità}: ad esempio
@@ -643,7 +549,12 @@ medico-paziente più frequenti, ricordando al paziente il ruolo delle
 benzodiazepine e le problematiche connesse alla loro assunzione prima di
 intraprendere la terapia stessa.
 
-\includegraphics[width=2.40625in,height=1.85417in]{media/image2.gif}In
+\begin{figure}[!ht]
+\centering
+	\includegraphics[width=0.9\textwidth]{04/image2.jpeg}
+\end{figure}
+
+In
 caso di \textbf{intossicazione}, infine, questa potrebbe risultare molto
 seria in soggetti che hanno una pregressa patologia polmonare o
 cardiocircolatoria di base, in quanto si potrebbe instaurare una
@@ -653,11 +564,9 @@ encefalico}, e in questi casi è necessario intervenire con il
 benzodiazepine, che si lega al sito specifico di questi farmaci sul
 recettore GABA\textsubscript{A} ma senza facilitarne l'apertura.
 
-\begin{enumerate}
-\def\labelenumi{\arabic{enumi}.}
+
 \item
   \textbf{\emph{ANTIDEPRESSIVI:}}
-\end{enumerate}
 
 Gli ANTIDEPRESSIVI presentano il vantaggio di \emph{non causare
 sedazione}, \emph{né assuefazione o dipendenza}, ma hanno il limite di
@@ -685,29 +594,24 @@ un \textbf{blocco del trasportatore della serotonina} presente a livello
 sinaptico, mentre differiscono leggermente tra loro per le ulteriori
 azioni farmacologiche (vedi tabella).
 
-\begin{longtable}[]{@{}lll@{}}
-\toprule
-\textbf{\emph{Farmaco}} & \textbf{\emph{Bersaglio d'Azione Primario}} &
-\textbf{\emph{Altri Effetti}}\tabularnewline
-\midrule
-\endhead
-\textbf{\emph{Escitalopram}} & SERT (Trasportatore della SERotonina) &
--\tabularnewline
-\textbf{\emph{Citalopram}} & SERT & Blocco \textbf{recettori}
-\textbf{H1}\tabularnewline
-\textbf{\emph{Sertralina}} & SERT & Blocco \textbf{DAT}, interazione coi
-\textbf{recettori σ} degli oppioidi\tabularnewline
-\textbf{\emph{Fluvoxamina}} & SERT & Interagisce coi \textbf{CYP3A4} e
-\textbf{CYP1A2}, interazione coi \textbf{recettori σ} degli
-oppioidi\tabularnewline
-\textbf{\emph{Fluoxetina}} & SERT & Blocco \textbf{NET}, Blocco
-\textbf{recettori 5-HT\textsubscript{2}}, interagisce col
-\textbf{CYP3A4} e \textbf{CYP2D6}\tabularnewline
-\textbf{\emph{Paroxetina}} & SERT & Interagisce col \textbf{CYP2D6},
-blocco dei \textbf{recettori M1}, blocco del \textbf{NET}, interagisce
-con \textbf{NOS}\tabularnewline
-\bottomrule
-\end{longtable}
+\begin{table}
+%\caption{Please write your table caption here}
+\begin{tabular}{p{0.3\textwidth}p{0.3\textwidth}p{0.3\textwidth}}
+\hline\noalign{\smallskip}
+\textbf{\emph{Farmaco}} & \textbf{\emph{Bersaglio d'Azione Primario}} & \textbf{\emph{Altri Effetti}}  \\
+\noalign{\smallskip}\svhline\noalign{\smallskip}
+
+Escitalopram & SERT (Trasportatore della SERotonina) & - \\
+Citalopram & SERT & Blocco recettori H1 \\
+Sertralina & SERT & Blocco DAT, interazione coi recettori $\sigma$ degli oppioidi \\
+Fluvoxamina & SERT & Interagisce coi CYP3A4 e CYP1A2, interazione coi recettori $\sigma$ degli oppioidi \\
+Fluoxetina & SERT & Blocco NET, Blocco recettori 5-HT\textsubscript{2}, interagisce col CYP3A4 e CYP2D6 \\
+Paroxetina & SERT & Interagisce col CYP2D6, blocco dei recettori M1, blocco del NET, interagisce con NOS \\
+
+\noalign{\smallskip}\hline\noalign{\smallskip}
+\end{tabular}
+\end{table}
+
 
 Visto che gli antidepressivi, sia gli SSRI che i TCA, necessitano di
 \emph{almeno 2 settimane per dare i loro effetti}, \emph{in genere li si
@@ -717,29 +621,21 @@ antidepressivi raggiungono il picco della loro azione in circa 8-12
 settimane, e vanno mantenuti per almeno 6 mesi dopo la risposta
 iniziale.
 
-\begin{enumerate}
-\def\labelenumi{\arabic{enumi}.}
 \item
   \textbf{\emph{BETA BLOCCANTI:}}
-\end{enumerate}
 
 Altri farmaci spesso somministrati ai pazienti ansiosi sono i
-\textbf{β-bloccanti} in monoterapia, i quali non si sono però dimostrati
+\textbf{$\beta$-bloccanti} in monoterapia, i quali non si sono però dimostrati
 efficaci nel ridurre la frequenza degli attacchi di panico o i sintomi
 fobici, sebbene siano utili per il trattamento della sintomatologia
 neurovegetativa.
+\end{itemize}
 
-\begin{enumerate}
-\def\labelenumi{\arabic{enumi}.}
-\item
-  \textbf{\emph{PSICOTERAPIA COGNITIVO-COMPORTAMENTALE:}}
-\end{enumerate}
+\paragraph{Psicoterapia cognitivo-comportamentale}
 
-Per quanto riguarda invece la \textbf{\emph{psicoterapia cognitivo-
-comportamentale}}, essa prevede:
+Per quanto riguarda invece la \textbf{\emph{psicoterapia cognitivo-comportamentale}}, essa prevede:
 
-\begin{enumerate}
-\def\labelenumi{\arabic{enumi}.}
+\begin{itemize}
 \item
   una \emph{prima fase di psicoeducazione}, in cui si cerca di informare
   il paziente e di fargli comprendere la propria patologia,
@@ -752,9 +648,9 @@ comportamentale}}, essa prevede:
   controllare il timore delle conseguenze dei sintomi, in modo da
   consentirgli di vincere l'ansia anticipatoria e riuscire così ad
   affrontare le situazioni temute.
-\item
-  \textbf{\emph{DECORSO:}}
-\end{enumerate}
+\end{itemize}
+
+\paragraph{Decorso}
 
 Per quanto riguarda il decorso del disturbo di panico, vari studi hanno
 evidenziato che, dopo 4-6 anni dal trattamento, il 30\% dei pazienti si
@@ -790,10 +686,7 @@ incidenza di \textbf{prolasso della valvola mitrale} in soggetto con
 disturbo di panico, la il nesso causale tra queste due forme patologiche
 non è stato ancora ben compreso.
 
-\begin{itemize}
-\item
-  \textbf{\emph{DISTURBO OSSESSIVO-COMPULSIVO:}}
-\end{itemize}
+\subsection{Disturbo ossessivo-compulsivo}
 
 Caso clinico: \emph{ragazza 22-23 anni si reca a fare la babysitter e la
 famiglia le affida un bambino di circa un anno e mezzo. Mentre sta
@@ -837,11 +730,7 @@ e di \textbf{compulsioni}}, che causano al paziente una notevole perdita
 di tempo (in genere più di un'ora al giorno) o causano un
 malfunzionamento sociale o occupazionale rilevante al paziente.
 
-\begin{enumerate}
-\def\labelenumi{\arabic{enumi}.}
-\item
-  \textbf{\emph{OSSESSIONI:}}
-\end{enumerate}
+\paragraph{Ossessioni}
 
 Secondo i criteri del DSM, l'\textbf{ossessione} viene definita come:
 una \emph{condizione caratterizzata dalla presenza di pensieri (}possono
@@ -939,11 +828,7 @@ pensassi cose imposte da altri; si vive come posseduti da altri.
   ore il tumore avrebbe potuto ucciderlo. }
 \end{itemize}
 
-\begin{enumerate}
-\def\labelenumi{\arabic{enumi}.}
-\item
-  \textbf{\emph{COMPULSIONI:}}
-\end{enumerate}
+\paragraph{Compulsioni}
 
 La \textbf{compulsione}, invece, viene definita come una
 \emph{condizione che si caratterizza per la presenza di comportamenti o
@@ -1091,10 +976,7 @@ che l'amfetamina induce movimenti ripetitivi, mentre la cocaina accentua
 i tic, e l'iperattività dopaminergica potrebbe essere secondaria alla
 disfunzione del sistema serotoninergico.
 
-\begin{itemize}
-\item
-  \textbf{\emph{DISTURBI DELLO SPETTRO OSSESSIVO:}}
-\end{itemize}
+\subsubsection{Disturbi dello spettro ossessivo}
 
 Strettamente connessi col DOC sono i cosiddetti \textbf{\emph{Disturbi
 dello Spettro Ossessivo}}, come la \emph{dismorfofobia},
@@ -1129,27 +1011,23 @@ una \emph{terapia cognitivo-comportamentale}, e come trattamento di
 seconda linea si ricorre alla somministrazione di \emph{antidepressivi
 SSRI}, eventualmente associati alla CBT.
 
-\begin{itemize}
-\item
-  \textbf{\emph{TERAPIA DEL DOC:}}
-\end{itemize}
+\subsubsection{Terapia del DOC}
 
 Per quanto riguarda la \textbf{\emph{terapia}} del disturbo ossessivo
 compulsivo, anche in questo caso si hanno diverse opzioni terapeutiche,
 quali:
 
-\begin{enumerate}
-\def\labelenumi{\arabic{enumi}.}
-\item
+\begin{itemize}
+\item[1.]
   la somministrazione di \textbf{psicofarmaci} (in particolare
   \emph{SSRI})
-\item
+\item[2.]
   la \textbf{psicoterapia} \textbf{cognitivo-comportamentale}
   (\textbf{CBT}),
-\item
+\item[3.]
   diversamente dal disturbo di panico, nel DOC la risposta al placebo è
   scarsissima.
-\end{enumerate}
+\end{itemize}
 
 In genere, nelle \emph{forme lievi/moderate} di DOC si ricorre prima
 alla \emph{terapia cognitivo-comportamentale}, e solo come seconda linea
@@ -1159,11 +1037,7 @@ CBT.
 Nelle forme più \emph{severe} si parte direttamente con un \emph{SSRI} o
 con l'\emph{associazione SSRI con CBT}.
 
-\begin{enumerate}
-\def\labelenumi{\arabic{enumi}.}
-\item
-  \textbf{\emph{PSICOFARMACI:}}
-\end{enumerate}
+\paragraph{Psicofarmaci}
 
 \emph{\emph{Trattamento:}}
 
@@ -1217,10 +1091,7 @@ SSRI, e in questi casi si ha una probabilità del 40\% di avere una
 risposta ad un secondo SSRI. Se nonostante ciò si ha un fallimento con
 2-3 SSRI, è bene passare alla psicoterapia.
 
-\begin{itemize}
-\item
-  \textbf{\emph{FOBIA SOCIALE}}
-\end{itemize}
+\subsection{Fobia sociale}
 
 È una disturbo d'ansia che si caratterizza per una \emph{paura marcata e
 persistente di una o più situazioni sociali o prestazionali nelle quale
@@ -1242,10 +1113,7 @@ durata dev'essere di almeno 6 mesi, e ovviamente questa condizione non
 deve essere dovuta ad un altro disturbo mentale o ad una qualsiasi
 condizione medica o fisica.
 
-\begin{itemize}
-\item
-  \textbf{FOBIA SPECIFICA}
-\end{itemize}
+\subsection{Fobia specifica}
 
 Secondo i criteri del DSM, la fobia specifica è un \emph{disturbo
 d'ansia che si caratterizza per la presenza di paura marcata e
@@ -1267,10 +1135,7 @@ deve determinare un deterioramento significativo del funzionamento
 lavorativo o sociale del paziente, e non deve nemmeno essere dovuta ad
 una condizione medica generale o ad un altro disturbo mentale.
 
-\begin{itemize}
-\item
-  \textbf{DISTURBO D'ANSIA GENERALIZZATO (GAD)}
-\end{itemize}
+\subsection{Disturbo d'ansia generalizzato}
 
 È un disturbo psichiatrico che si caratterizza per la \emph{presenza di
 ansia e preoccupazione eccessiva}, che si manifestano \emph{per la
@@ -1299,25 +1164,21 @@ L'ansia, la preoccupazione o i sintomi fisici causano un \emph{disagio
 clinicamente significativo o una menomazione del funzionamento sociale,
 lavorativo o di due aree importanti}.
 
-\begin{itemize}
-\item
-  \textbf{DISTURBO POST-TRAUMATICO DA STRESS:}
-\end{itemize}
+\subsection{Disturbo post-traumatico da stress}
 
 È un disturbo in cui la persona è stata esposta ad un evento traumatico
 in cui erano presenti entrambe le seguenti caratteristiche:
 
-\begin{enumerate}
-\def\labelenumi{\arabic{enumi}.}
-\item
+\begin{itemize}
+\item[1.]
   \textbf{La persona ha vissuto, o ha assistito, ad un evento o a più
   eventi che hanno implicato la morte, o la minaccia di morte, o
   comunque al rischio di gravi lesioni rivolte all'integrità fisica
   propria o altrui}.
-\item
+\item[2.]
   \textbf{La risposta della persona comprendeva un'intensa paura,
   sentimenti di impotenza o di orrore}.
-\end{enumerate}
+\end{itemize}
 
 Nel disturbo post-traumatico da stress l'evento traumatico viene
 rivissuto persistentemente in uno o più dei seguenti modi:
@@ -1389,5 +1250,3 @@ Il DSM suggerisce inoltre di specificare se di si tratta di una
 \textbf{cronica} (la durata è di 3 mesi o più) o \textbf{ad esordio
 ritardato} (se l'esordio dei sintomi avviene almeno 6 mesi dopo l'evento
 stressante).
-
-\end{document}
